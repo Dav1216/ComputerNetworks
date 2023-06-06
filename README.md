@@ -4,7 +4,10 @@ User can choose two ips of the victims, the code executes an arp poisoning fixin
 
 ## Requirements
 1. Linux machine
-2. Python 3
-3. Scapy library
-4. Netfilter library
-5. Enable ipv4 packet forwarding in sysctl.conf of the linux machine found in /etc.
+2. Weberver that supports SSL
+3. Another webserver that hosts a website
+4. A dns server
+5. Python 3
+6. Scapy library
+7. Netfilter library
+8. Enable ipv4 packet forwarding in sysctl.conf of the linux machine found in /etc.
