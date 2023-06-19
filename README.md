@@ -17,3 +17,6 @@ User can choose two ips of the victims, the code executes an arp poisoning fixin
 
 # Running the program / User manual
 * When running main.py with Python 3 you must include the following arguments: the two victims' IPs, the interface connected to the network where the victims are, the type of attack to execute between DNS spoof and SSL strip, the website to redirect the victim to during the DNS spoof and the SSL strip and the name of the website that you want to immitate. Example: python3 main.py 192.168.56.103 192.168.56.3 enp0s8 dns 192.168.56.104 fakebook.com. Only if the victim accesses fakebook.com will the victim be redirected to the attacker's website at 192.168.56.104. If anything other than dns is inputed, a SSL strip will be executed. Please stop the program with ctrl-C so that the netfilter queue object is unbinded from the Linux kernel packet queue. The attack only works if the attacker is in the same LAN as the victim. To intercept the conversation with an outside webserver or DNS, it is recommended that the second inputed IP is the IP of the gateway of the LAN.
+
+### Link to sped up video
+https://youtu.be/3S3mu-RCrFA
