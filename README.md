@@ -1,4 +1,4 @@
-# ComputerNetworksAttack
+# ComputerNetworks
 This is a project that is only for educational purposes, done as part of university curriculum.
 
 User can choose two ips of the victims, the code executes an arp poisoning fixing the attacker as the man in the middle, followed by either a DNS spoof, that redirects the user to a website of the attacker's choosing, or a SSL strip that redirects the user to a website of the attacker's choosing.
