@@ -4,18 +4,13 @@ import sys
 from arppoisoning import ArpPoisoning
 from getmacipattacker import GetIpMac
 from dnsspoofing import DnsSpoofing
-#from dnspoisoning import DnsPoisoning
 from sslstripping import SimpleSslStrip
 
-#victim1
-#macWindows = "08:00:27:b7:c4:af"
-global ip_victim_1 #= "192.168.56.3"
 
-#victim2
-#macServer = "08:00:27:cc:08:6f"
-global ip_victim_2 # =  "192.168.56.103"
+global ip_victim_1 
+global ip_victim_2 
 
-global interface #= "enp0s8"
+global interface 
 
 global mac_attacker
 global ip_attacker
