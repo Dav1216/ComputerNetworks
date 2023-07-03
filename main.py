@@ -39,7 +39,6 @@ if __name__ == "__main__":
     arp_poisoning_module.execute_poisoning()
 
     if(type_of_attack == "dns"):
-        print("DNSNS")
         dns_spoof_module = DnsSpoofing(redirect_website, site_to_impersonate)
         dns_spoof_module.execute_poisoning()
     else:
