@@ -8,7 +8,7 @@ User can choose two ips of the victims, the code executes an arp poisoning fixin
 
 ## Requirements
 1. Linux machine
-2. Weberver that supports SSL or TLS, but does not support HSTS
+2. Webserver that supports SSL or TLS
 3. Webserver to host the attacker's website
 4. A dns server
 5. Python 3
